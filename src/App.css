@@ -1,0 +1,129 @@
+header {
+  width: 100%;
+  height: 120px;
+  background-color: #83d0c9;
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard-body {
+  margin-top: 100px;
+  /* margin-left: 100px; */
+}
+
+.logo {
+  color: white;
+  margin-left: 100px;
+}
+
+.dashboard {
+  width: 500px;
+  height: 250px;
+  border: 1px solid black;
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  display: flex;
+  margin-bottom: 50px;
+  box-shadow: 5px 5px 5px #aaa;
+}
+
+.name-and-price {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-button, .edit-button {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+
+.edit-button {
+  margin-left: 100px;
+}
+
+.input-box {
+  width: 500px;
+  height: 700px;
+  border: 1px solid black;
+  margin-top: 100px;
+  /* margin-left: 400px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+}
+
+.input {
+  /* margin-top: 50px; */
+  width: 400px;
+}
+
+.cancel-add-button {
+  margin-top: 50px;
+  display: flex;
+}
+
+
+.add-button {
+  margin-left: 200px;
+  width: 150px;
+  height: 40px;
+  background-color: #83d0c9;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.cancel-button {
+  width: 80px;
+  height: 40px;
+  background-color: #83d0c9;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-weight: bold;
+}
+
+
+
+/* header */
+.dashboard-button, .add-inventory-button {
+  width: 120px;
+  height: 30px;
+  /* border: 1px solid black; */
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+
